@@ -1,0 +1,12 @@
+# Core ML packages
+# Note: PyTorch is installed separately via setup_env.sh
+#       (requires --index-url https://download.pytorch.org/whl/cpu)
+
+numpy==2.2.6
+scipy==1.15.3
+opencv-python==4.13.0.90
+matplotlib==3.10.8
+
+# Testing
+pytest==9.0.2
+expecttest==0.3.0
