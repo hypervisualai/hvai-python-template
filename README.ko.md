@@ -23,12 +23,20 @@ HVAI 팀 전체의 Python 개발 환경을 통일하기 위한 GitHub 템플릿 
 
 1. 이 레포 상단의 **"Use this template"** 버튼 클릭
 2. **"Create a new repository"** 선택
-3. 새 레포 이름 입력 후 **"Create repository"** 클릭
-4. 새 레포를 clone하고 셋업 실행:
+3. **Owner(소유자)** 선택:
+   - **`hypervisualai`** — 팀/회사 공유 프로젝트 (팀원 전체 접근, 회사 소유)
+   - **개인 계정** — 개인 프로젝트나 실험용
+4. **Visibility(공개 범위)** 선택:
+   - > ⚠️ **외부 공개 목적이 아니라면 반드시 `Private`으로 설정하세요.**
+   - `Private` — 팀원만 접근 가능 (사내 프로젝트에 권장)
+   - `Public` — 인터넷에 전체 공개
+5. 새 레포 이름 입력 후 **"Create repository"** 클릭
+5. 새 레포를 clone하고 셋업 실행:
 
 ```bash
-git clone git@github.com:<your-org>/<your-repo>.git
-cd <your-repo>
+# "my-project" 부분을 3단계에서 입력한 레포 이름으로 바꾸세요
+git clone git@github.com:hypervisualai/my-project.git
+cd my-project
 bash setup_env.sh
 ```
 

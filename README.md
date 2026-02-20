@@ -23,12 +23,20 @@ All developers start from this template to ensure identical Python versions and 
 
 1. Click the **"Use this template"** button at the top of this repository
 2. Select **"Create a new repository"**
-3. Enter your new repository name and click **"Create repository"**
-4. Clone your new repository and run setup:
+3. Choose the **Owner**:
+   - **`hypervisualai`** — for team/company projects (shared access, company-owned)
+   - **Your personal account** — for personal or experimental projects
+4. Set **Visibility**:
+   - > ⚠️ **Use `Private` unless the project is intended for public release.**
+   - `Private` — visible only to team members (recommended for internal projects)
+   - `Public` — visible to everyone on the internet
+5. Enter your new repository name and click **"Create repository"**
+5. Clone your new repository and run setup:
 
 ```bash
-git clone git@github.com:<your-org>/<your-repo>.git
-cd <your-repo>
+# Replace "my-project" with the repository name you entered in step 3
+git clone git@github.com:hypervisualai/my-project.git
+cd my-project
 bash setup_env.sh
 ```
 
