@@ -32,13 +32,13 @@ All developers start from this template to ensure identical Python versions and 
    - `Public` — visible to everyone on the internet
 5. Enter your new repository name and click **"Create repository"**
 5. Clone your new repository and run setup:
-
-```bash
-# Replace "my-project" with the repository name you entered in step 3
-git clone git@github.com:hypervisualai/my-project.git
-cd my-project
-bash setup_env.sh
-```
+   - Go to your new repository page on GitHub
+   - Click the **`Code`** button and copy the URL
+   ```bash
+   git clone <paste-the-URL-copied-from-Code-button>
+   cd <repository-name>
+   bash setup_env.sh
+   ```
 
 ### Option 2: Clone directly (for quick testing)
 

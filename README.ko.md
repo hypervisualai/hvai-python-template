@@ -32,13 +32,12 @@ HVAI 팀 전체의 Python 개발 환경을 통일하기 위한 GitHub 템플릿 
    - `Public` — 인터넷에 전체 공개
 5. 새 레포 이름 입력 후 **"Create repository"** 클릭
 5. 새 레포를 clone하고 셋업 실행:
-
-```bash
-# "my-project" 부분을 3단계에서 입력한 레포 이름으로 바꾸세요
-git clone git@github.com:hypervisualai/my-project.git
-cd my-project
-bash setup_env.sh
-```
+   - 생성된 레포 페이지에서 **`Code`** 버튼을 클릭하여 URL 복사
+   ```bash
+   git clone <Code 버튼에서 복사한 URL>
+   cd <레포 이름>
+   bash setup_env.sh
+   ```
 
 ### 방법 2: 직접 clone (빠른 테스트용)
 
